@@ -1,0 +1,97 @@
+/* header */
+
+header {
+    background-color: lightpink;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.myheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+}
+
+nav {
+    width: 500px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li > a {
+    color: black;
+    font-size: 20px;
+}
+
+.fa-bars {
+    font-size: 32px;
+    color: grey;
+    display: none;
+}
+
+/* section 1 */
+
+section {
+    margin-top: 50px;
+}
+
+.goflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.info-block {
+    width: 260px;
+    margin-right: 50px;
+}
+
+.info-block > h4 {
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 16px;
+}
+
+.info-block > h2 {
+    font-size: 26px;
+    margin-bottom: 44px;
+}
+.info-block > p {
+    font-size: 16px;
+    color: grey;
+    margin-top: 30px;
+}
+
+.cards-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 260px;
+    margin-bottom: 50px;
+}
+
+.card > img {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.card > h3 {
+    margin-bottom: 10px;
+}
